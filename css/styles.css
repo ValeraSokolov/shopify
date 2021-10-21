@@ -1,0 +1,185 @@
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/*BODY*/
+body {
+  display: block;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.page-body {
+  min-height: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*STILE-OPTION*/
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.col {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.col-1 {
+  width: calc(100% / 12);
+}
+
+.col-2 {
+  width: calc(100% / 12 * 2);
+}
+
+.col-3 {
+  width: calc(100% / 12 * 3);
+}
+
+.col-4 {
+  width: calc(100% / 12 * 4);
+}
+
+.col-5 {
+  width: calc(100% / 12 * 5);
+}
+
+.col-6 {
+  width: calc(100% / 12 * 6);
+}
+
+.col-7 {
+  width: calc(100% / 12 * 7);
+}
+
+.col-8 {
+  width: calc(100% / 12 * 8);
+}
+
+.col-9 {
+  width: calc(100% / 12 * 9);
+}
+
+.col-10 {
+  width: calc(100% / 12 * 10);
+}
+
+.col-11 {
+  width: calc(100% / 12 * 11);
+}
+
+.col-12 {
+  width: 100%;
+}
+
+
+@media only screen and (max-width: 1023px) {
+  
+  .col-md-1 {
+    width: calc(100% / 12);
+  }
+  
+  .col-md-2 {
+    width: calc(100% / 12 * 2);
+  }
+  
+  .col-md-3 {
+    width: calc(100% / 12 * 3);
+  }
+  
+  .col-md-4 {
+    width: calc(100% / 12 * 4);
+  }
+  
+  .col-md-5 {
+    width: calc(100% / 12 * 5);
+  }
+  
+  .col-md-6 {
+    width: calc(100% / 12 * 6);
+  }
+  
+  .col-md-7 {
+    width: calc(100% / 12 * 7);
+  }
+  
+  .col-md-8 {
+    width: calc(100% / 12 * 8);
+  }
+  
+  .col-md-9 {
+    width: calc(100% / 12 * 9);
+  }
+  
+  .col-md-10 {
+    width: calc(100% / 12 * 10);
+  }
+  
+  .col-md-11 {
+    width: calc(100% / 12 * 11);
+  }
+  
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .col-sm-1 {
+    width: calc(100% / 12);
+  }
+  
+  .col-sm-2 {
+    width: calc(100% / 12 * 2);
+  }
+  
+  .col-sm-3 {
+    width: calc(100% / 12 * 3);
+  }
+  
+  .col-sm-4 {
+    width: calc(100% / 12 * 4);
+  }
+  
+  .col-sm-5 {
+    width: calc(100% / 12 * 5);
+  }
+  
+  .col-sm-6 {
+    width: calc(100% / 12 * 6);
+  }
+  
+  .col-sm-7 {
+    width: calc(100% / 12 * 7);
+  }
+  
+  .col-sm-8 {
+    width: calc(100% / 12 * 8);
+  }
+  
+  .col-sm-9 {
+    width: calc(100% / 12 * 9);
+  }
+  
+  .col-sm-10 {
+    width: calc(100% / 12 * 10);
+  }
+  
+  .col-sm-11 {
+    width: calc(100% / 12 * 11);
+  }
+  
+  .col-sm-12 {
+    width: 100%;
+  }
+}
