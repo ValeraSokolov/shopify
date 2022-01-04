@@ -12,6 +12,18 @@
   display: block;
 }
 
+.paragraf_column {
+  color: #f8f8f8;
+  text-align: start;
+  font-size: 14px;
+}
+
+.logo_container {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 @media screen and (max-width: 749px) {
   .footer .grid {
     display: block;
